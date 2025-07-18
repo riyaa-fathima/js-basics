@@ -1,0 +1,94 @@
+java arithematic operators
++ addition
+-substraction
+++ increment
+-- decrement
+* multiplication
+** exponentiation
+% modulus
+/ division
+
+--VARIABLES--
+variables is used to store and manage data in javascript
+let- let num=10;(we can reassign data,if we use let)
+const-const num=10;(if we use const we cant reassign)
+
+Premetive datatype- basic,built-in data type that store single values
+*pre defined by the programming language 
+*simple and lightweight
+*can store only one value at a time
+*values directly stored in memory
+TYPE           eg               discription
+number         10,10.5,-10       any numeric value
+string         hi,"hello"        text inside quote
+boolean        true,false        yes/no,on/off
+undefined      let a;            declared but not assigned value
+NULL           let b=null;       empty or unknown       
+Symbol         let id=Symbol("id")
+
+(typeof10) to know datatype
+Non premitive-complex type created using premitive
+*not built-in;you can create your own
+*can store multiple values or data structure
+*can include functions/methods
+*data stored by reference
+eg=array,object,functions
+
+ARRAY METHODS- its built-in java script fn that helps in operations in array like adding ,removing,searching or transforming elements
+eg
+push()- it add item to the end(last index)
+pop()-remove last index
+unshift()-it add item to the first index in an array
+shift()-remove frst index
+length- to find the length of the array
+concat()-to combine arrays
+indexOf()-it will specific index 
+include()-check its there or not
+slice(start,end)
+
+object-an object is collection of key value pairs
+let student{
+    name:riya,
+    age:29,
+    address:{
+        cities:["bengalur","kochi"]
+    }
+}
+
+FUNCTION-a fnction is reuseble block of code that peform A specific task
+diff between normal fn and arrow fn-
+1,this binding-this value in normal fn is dynamic but in arrow fn they do not have this
+2,argument object- in normal fn they have their own argument fn but arrow fn doesnt
+3,prototype property-arrow fn do not have prototype property
+normal fn requires fnction in their syntax 
+function greet () {
+    
+};
+let name = () => {
+
+}; 
+
+LOGICAL operators
+&& and -true&&true==true ,true&&false==false;
+|| or- true|| false==true;
+! not-it will false into true or true into false;
+
+LOOP
+a loop repeats a block of code as long as a condition true
+diff type
+for loop-for (let i=1;i<=3;i++){
+    console.log("hello",i)
+}
+while -
+*condition will check before run,may not run at all if condition false
+let j=1;
+while(j<=3){
+    console.log("hi",j)
+    j++;
+}
+do while-run first then checks,will run atleast once
+let k=1;
+do{
+    console.log("a",k)
+    k++;
+} while(k<=3);
