@@ -50,6 +50,8 @@ for(i=2; i<=10; i++){
         console.log(i);
     }
 }
+
+
 for(let i=20;i <=30; i++){
     isPrime=true;
     for(j=2; j<i; j++){
