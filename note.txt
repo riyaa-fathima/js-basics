@@ -73,6 +73,9 @@ LOGICAL operators
 || or- true|| false==true;
 ! not-it will false into true or true into false;
 
+TERNARY OPERATOR 
+? true : false
+
 LOOP
 a loop repeats a block of code as long as a condition true
 diff type
